@@ -52,7 +52,7 @@ function ChatCompo() {
         newMessageBox.appendChild(newMessageContent);
       }
     });
-  }, [currUserId]);
+  }, [currUserId, chatCont]);
 
   const sendRoomMess = () => {
     const sendGroupMsg = text;
