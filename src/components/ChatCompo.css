@@ -1,0 +1,85 @@
+.chatContainer {
+  border: 1px solid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  /* height: 80vh; */
+}
+.chatHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(115, 156, 209);
+  padding: 10px;
+}
+.grpChatIcon {
+  height: 8vh;
+}
+.grpName {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.chatBody {
+  background-image: url("https://t4.ftcdn.net/jpg/03/38/75/29/360_F_338752910_Th7euFDcjaI0nWNOBoi0JDSR0zu92WkM.jpg");
+  padding: 10px;
+}
+.chatsDisplay {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.sending {
+  text-align: right;
+}
+.recieving {
+  text-align: left;
+}
+.username {
+  font-weight: bold;
+  margin: 5px 0;
+}
+.sendingSide {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.sendingbody {
+  background-color: rgb(146, 193, 250);
+  max-width: 500px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: left;
+}
+.recievingbody {
+  background-color: rgb(213, 232, 255);
+  width: fit-content;
+  max-width: 500px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: left;
+}
+.userInputChat {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.messageInput {
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(220, 229, 240);
+}
+.btnSend {
+  border-radius: 50%;
+  padding: 8px;
+  border: none;
+  background-color: rgb(97, 143, 202);
+}
+.sendbtnImg {
+  width: 30px;
+}
